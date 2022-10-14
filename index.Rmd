@@ -30,16 +30,16 @@ output:
 library(metathis)
 meta() %>%
   meta_general(
-    description = "Getting familiar with the use of Git & GitHub in RStudio",
+    description = "First Steps in Learning the Use of Git and GitHub in RStudio",
     generator = "xaringan and remark.js"
   ) %>% 
   meta_name("github-repo" = "MounaBelaid/Getting-familiar-with-the-use-of-git-and-github-in-rstudio") %>% 
   meta_social(
-    title = "Getting familiar with the use of Git & GitHub in RStudio",
-    url = "https://mounabelaid.github.io/Get-familiar-with-the-use-of-git-and-github-in-rstudio",
+    title = "First Steps in Learning the Use of Git and GitHub in RStudio",
+    url = "",
     image = "",
     image_alt = paste(
-      "Title slide of Getting familiar with the use of Git & GitHub in RStudio",
+      "Title slide of First Steps in Learning the Use of Git and GitHub in RStudio",
       "Workshop delivered by Mouna Belaid"
       ),
     og_type = "website",
