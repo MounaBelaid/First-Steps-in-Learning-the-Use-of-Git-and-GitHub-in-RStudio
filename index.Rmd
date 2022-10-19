@@ -33,7 +33,7 @@ meta() %>%
     description = "First Steps in Learning the Use of Git and GitHub in RStudio",
     generator = "xaringan and remark.js"
   ) %>% 
-  meta_name("github-repo" = "MounaBelaid/Getting-familiar-with-the-use-of-git-and-github-in-rstudio") %>% 
+  meta_name("github-repo" = "MounaBelaid/First-Steps-in-Learning-the-Use-of-Git-and-GitHub-in-RStudio") %>% 
   meta_social(
     title = "First Steps in Learning the Use of Git and GitHub in RStudio",
     url = "",
@@ -76,7 +76,7 @@ xaringanExtra::style_share_again(
 ```
 
 class: title-slide, center, top
-background-image: url(img/git_github.png), url(img/Oman_Abuja_logos.png)
+background-image: url(img/git_github.png)
 background-position: 90% 75%, 75% 75%
 background-size: 20%, contain
 
