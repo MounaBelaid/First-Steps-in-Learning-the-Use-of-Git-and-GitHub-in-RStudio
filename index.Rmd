@@ -211,12 +211,20 @@ A collaboration around open science, coding, teaching, and art.
 
 ]
 
+???
+
+Notes
+
 .panel[.panel-name[Popular Version Control Systems]
 .center[
 ![:scale 200%](img/VCS.png)
 ]
 ] 
 ]
+
+???
+
+Notes
 
 ---
 template: question
@@ -239,6 +247,10 @@ template: question
 
 --
 .pull-right-wide[### .black[Git's key design objectives are functionality, performance, security, and flexibility]]
+
+???
+
+Notes
 
 ---
 template: question
