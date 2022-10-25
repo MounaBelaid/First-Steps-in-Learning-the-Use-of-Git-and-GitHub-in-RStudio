@@ -106,10 +106,6 @@ class: about-me-slide, inverse, middle, center
 [`r icons::icon_style(icons::fontawesome("github"), scale = 1)` @MounaBelaid](https://github.com/MounaBelaid)
 [`r icons::icon_style(icons::fontawesome("youtube"), scale = 1)` Mouna Belaid](https://www.youtube.com/channel/UCID33pDULsQg2y4FVlv4CnQ)
 
-???
-
-As ….. introduced me. I'm Mouna BELAID and I'm a Business Intelligence Consultant at Prime Analytics and Community Organizer of R-Ladies Paris
-
 ---
 layout: true
 
@@ -139,13 +135,6 @@ layout: true
 5) Submission of a new Cheatsheet to the ["Cheatsheets" GitHub Repository](https://github.com/rstudio/cheatsheets) maintained by RStudio
 ]
 
-???
-
-So what's about the session outline ?
-I will start giving an overview of ……..
-This session is intended to be interactive that's why we will practice a set of tasks to get familiar with Git and GitHub in RStudio
-First you will learn about GitHub fundamentals then we will move to some practices.
-
 ---
 
 # Requirements
@@ -168,11 +157,6 @@ template: requirements
 .pull-left-narrow[
 .center[`r icons::icon_style(icons::fontawesome("github"), scale = 2)`]]
 .pull-right-wide[### .black[Free GitHub account]]
-
-???
-
-You should have R and RStudio installed on your machine
-and you need also to have a GitHub account and Git installed.
 
 ---
 
@@ -234,21 +218,6 @@ A collaboration around open science, coding, teaching, and art.
 ] 
 ]
 
-???
-
-Version control, also known as source control, is the practice of tracking and managing changes to software code.
-The code for a project, application or software component is typically organized in a folder structure.
-Version control will help you to track every individual change in the code by each contributor and will help you to prevent concurrent work from conflicting.
-You know! As development environments have accelerated, version control systems are nowadays helping software teams work faster and smarter.
-
-[GO RIGHT PANE]
-Version control will help you streamline your work. Instead of spending our time inspecting and fretting over whether this version of an excel file or the other version“ is truly the final version, with a version control tool we can be confident in our completed analysis and move to the next step.
-Version Control will also enable you to make your work more reproducible. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies.
-In this context, I want to tell you about an illustrated series that has been created by Allison Horst and Julia Stewart Lowndes. The figure that you are looking at and which I find so insightful :D is one of the amazing illustrations that tell a story about why GitHub is so powerful for supporting, reusing, contributing, and failing safely. Rachael will kindly share with you in the chat in a bit the link of this series (https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) so that you get to know more later about this amazing work. There are really other amazing illustrations.
-
-[GO RIGHT PANE]
-As you can see, there are many choices, but here we are going to focus on just one, Git. So we have CVS, or Subversion…
-
 ---
 template: question
 
@@ -270,12 +239,6 @@ template: question
 
 --
 .pull-right-wide[### .black[Git's key design objectives are functionality, performance, security, and flexibility]]
-
-???
-
-Git is a distributed version control software. What's its function? It manages the evolution of a set of files – called a repository – in a sane, highly structured way.
-
-Being distributed means that every developer working with a Git repository has a copy of that entire repository - every commit, every branch, every file. It was originally developed in 2005 (two thousands and five) by Linus Torvalds, the creator of the Linux operating system kernel
 
 ---
 template: question
@@ -299,11 +262,6 @@ template: question
 --
 .pull-right-wide[### .black[GitHub uses <img src="img/logo-Git.png" width="20%"/> the most popular open source version control software, to track every contribution and contributor to a defined project.]]
 
-???
-
-What's GitHub?
-GitHub is a collaboration platform.  It is the most popular hosting service for collaborating on code using Git. Other hosting services include Bitbucket, and Gitlab.
-
 ---
 .center[
 ![:scale 80%](img/illustration2.png)
@@ -311,11 +269,6 @@ GitHub is a collaboration platform.  It is the most popular hosting service for 
 A collaboration around open science, coding, teaching, and art.
 <a href="https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/">openscapes.org/blog/2022/05/27/github-illustrated-series/</a> </font>
 ]
-
-???
-
-This is a second illustration from the GitHub illustration series that I've talked about to you in a moment ago. What's the definition of Collaboration by Jenny Bryan? 
-Collaboration…..
 
 ---
 template: question
@@ -379,9 +332,6 @@ template: question
 `r icons::icon_style(icons::fontawesome("check-square"), scale = 3, fill = "white")`
 # Getting the most out of GitHub and Git
 
-???
-Let's now go to the next part: Getting the most out of GitHub and Git
-
 ---
 
 ## Getting the most out of GitHub and Git
@@ -408,21 +358,11 @@ Let's now go to the next part: Getting the most out of GitHub and Git
 ] <!---->
 ] 
 
-???
-You will learn how to do two things:
-
-How to create a new RStudio project and push it to GitHub. During this part, you will learn how to create a GitHub repository and how to link it to your project on your own machine.
-
-The second part is about cloning an existing GitHub repo to an RStudio project and during this part you will learn about how to connect a new RStudio project started from scratch to GitHub.
-
 ---
 template: question
 
 `r icons::icon_style(icons::fontawesome("check-square"), scale = 3, fill = "white")`
 # GitHub Knowledge Base
-
-???
-To do so you need to understand the process.
 
 ---
 
@@ -432,9 +372,6 @@ To do so you need to understand the process.
 ![:scale 80%](img/Git-process1.png)
 ]
 
-???
-Let's say you want to contribute to a repository of an open source project on GitHub, so here you are able to see the remote repository on GitHub
-
 ---
 
 ## GitHub Knowledge Base
@@ -442,9 +379,6 @@ Let's say you want to contribute to a repository of an open source project on Gi
 .center[
 ![:scale 80%](img/Git-process2.png)
 ]
-
-???
-then you will fork it that means you will make a copy of this repository so that you make changes to a project without affecting the original repository. So it's okay you have the copy. 
 
 ---
 
@@ -454,9 +388,6 @@ then you will fork it that means you will make a copy of this repository so that
 ![:scale 80%](img/Git-process3.png)
 ]
 
-???
-Then you will use git clone to make a copy that means to make a copy of this repository on your local machine. 
-
 ---
 
 ## GitHub Knowledge Base
@@ -464,9 +395,6 @@ Then you will use git clone to make a copy that means to make a copy of this rep
 .center[
 ![:scale 80%](img/Git-process4.png)
 ]
-
-???
-Then you can work locally on the project by making changes of the available files. 
 
 ---
 
@@ -476,9 +404,6 @@ Then you can work locally on the project by making changes of the available file
 ![:scale 80%](img/Git-process5.png)
 ]
 
-???
-Then you need to add the updated files on which you made changes to the staging area by using git add
-
 ---
 
 ## GitHub Knowledge Base
@@ -487,9 +412,6 @@ Then you need to add the updated files on which you made changes to the staging 
 ![:scale 80%](img/Git-process6.png)
 ]
 
-???
-However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.
-
 ---
 
 ## GitHub Knowledge Base
@@ -497,11 +419,6 @@ However, git add doesn't really affect the repository in any significant way—c
 .center[
 ![:scale 80%](img/Git-process7.png)
 ]
-
-???
-Last step you need to push these changes to the remote GitHub repository to make your updated files available to your collaborators. 
-
-If other people are working on the same project (repository), or maybe you’re working on a different computer, you can pull any changes back to your local repository so everything is synchronised.
 
 ---
 
@@ -524,9 +441,6 @@ If other people are working on the same project (repository), or maybe you’re 
 `git log` | Display the entire commit history using the default format
 ]
 
-???
-This is an overview of the git commands along with their explanations that you should know as a beginner. I've already covered a part of them. That should be helpful for people who will have a look at the slides later.
-
 ---
 
 ## GitHub Knowledge Base
@@ -540,21 +454,12 @@ This is an overview of the git commands along with their explanations that you s
 
 **Issues** are suggested improvements, tasks or questions related to the repository. Issues can be created by anyone (for public repositories), and are moderated by repository collaborators. Each issue contains its own discussion thread.
 
-???
-I will cover later in practice what pull requests and issues are.
-
 ---
 
 template: question
 
 `r icons::icon_style(icons::fontawesome("check-square"), scale = 3, fill = "white")`
 # 1) Create	a	new	RStudio	Project	and	push	it	to	GitHub
-
-???
-Now let's go for some practise. 
-
-You will learn about how to create an RStudio project and push it to GitHub
-That means you will learn how to setup a local repository first and then to link a remote GitHub repository to this local repository.
 
 ---
 
@@ -620,9 +525,6 @@ template: question
 `r icons::icon_style(icons::fontawesome("check-square"), scale = 3, fill = "white")`
 # 2) Clone	an	existing	GitHub	Repository	to	an	RStudio	Project
 
-???
-The second approach that you might follow is that you setup a remote GitHub repository first then you connect an RStudio project to this repository.
-
 ---
 
 ## 2) Clone	an	existing	GitHub	Repository	to	an	RStudio	Project
@@ -655,19 +557,12 @@ name: Cheatsheet
 ## My Submission of a new Cheatsheet to the "Cheatsheets" GitHub Repository maintained by RStudio: **Volunteer Basis**
 
 ![:scale 50%](img/git-github.png)
-???
-Now it's time to tell you about the git-github cheatsheet that I've created. I will tell you about the process that I've walked through to submit a new cheatsheet  to the cheatsheets GitHub repository with a pull request.
 
 ---
 name: Cheatsheet
 ## My Submission of a new Cheatsheet to the "Cheatsheets" GitHub Repository maintained by RStudio: **Volunteer Basis**
 
 ![:scale 100%](img/cheatsheet0.png)
-
-???
-This is the cheatsheets GitHub repository that contains the source files of the current, archived and translated versions of the cheatsheets. 
-
-We have some folders. pngs, keynotes, and powerpoints folders. for example the pngs folder contain image format of the available cheatsheets. 
 
 ---
 name: Cheatsheet
@@ -684,9 +579,6 @@ name: Cheatsheet
 ![:scale 100%](img/cheatsheet4.png)
 ]
 
-???
-First, I forked the repo. Then I cloned the cheatsheets GitHub repository. Clicked on the green ‘Clone or Download’ button and made a copy of the link that poped up
-
 ---
 name: Cheatsheet
 ## My Submission of a new Cheatsheet to the "Cheatsheets" GitHub Repository maintained by RStudio: **Volunteer Basis**
@@ -698,9 +590,6 @@ name: Cheatsheet
 .pull-right[
 ![:scale 100%](img/cheatsheet6.png)
 ]
-
-???
-I put the pdf version of the cheatsheets in the pdf folders.
 
 ---
 name: Cheatsheet
