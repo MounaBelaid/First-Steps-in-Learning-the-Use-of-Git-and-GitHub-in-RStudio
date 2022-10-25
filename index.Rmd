@@ -379,6 +379,9 @@ template: question
 `r icons::icon_style(icons::fontawesome("check-square"), scale = 3, fill = "white")`
 # Getting the most out of GitHub and Git
 
+???
+Let's now go to the next part: Getting the most out of GitHub and Git
+
 ---
 
 ## Getting the most out of GitHub and Git
@@ -405,11 +408,21 @@ template: question
 ] <!---->
 ] 
 
+???
+You will learn how to do two things:
+
+How to create a new RStudio project and push it to GitHub. During this part, you will learn how to create a GitHub repository and how to link it to your project on your own machine.
+
+The second part is about cloning an existing GitHub repo to an RStudio project and during this part you will learn about how to connect a new RStudio project started from scratch to GitHub.
+
 ---
 template: question
 
 `r icons::icon_style(icons::fontawesome("check-square"), scale = 3, fill = "white")`
 # GitHub Knowledge Base
+
+???
+To do so you need to understand the process.
 
 ---
 
@@ -419,6 +432,9 @@ template: question
 ![:scale 80%](img/Git-process1.png)
 ]
 
+???
+Let's say you want to contribute to a repository of an open source project on GitHub, so here you are able to see the remote repository on GitHub
+
 ---
 
 ## GitHub Knowledge Base
@@ -426,6 +442,9 @@ template: question
 .center[
 ![:scale 80%](img/Git-process2.png)
 ]
+
+???
+then you will fork it that means you will make a copy of this repository so that you make changes to a project without affecting the original repository. So it's okay you have the copy. 
 
 ---
 
@@ -435,6 +454,9 @@ template: question
 ![:scale 80%](img/Git-process3.png)
 ]
 
+???
+Then you will use git clone to make a copy that means to make a copy of this repository on your local machine. 
+
 ---
 
 ## GitHub Knowledge Base
@@ -442,6 +464,9 @@ template: question
 .center[
 ![:scale 80%](img/Git-process4.png)
 ]
+
+???
+Then you can work locally on the project by making changes of the available files. 
 
 ---
 
@@ -451,6 +476,9 @@ template: question
 ![:scale 80%](img/Git-process5.png)
 ]
 
+???
+Then you need to add the updated files on which you made changes to the staging area by using git add
+
 ---
 
 ## GitHub Knowledge Base
@@ -459,6 +487,9 @@ template: question
 ![:scale 80%](img/Git-process6.png)
 ]
 
+???
+However, git add doesn't really affect the repository in any significant way—changes are not actually recorded until you run git commit.
+
 ---
 
 ## GitHub Knowledge Base
@@ -466,6 +497,11 @@ template: question
 .center[
 ![:scale 80%](img/Git-process7.png)
 ]
+
+???
+Last step you need to push these changes to the remote GitHub repository to make your updated files available to your collaborators. 
+
+If other people are working on the same project (repository), or maybe you’re working on a different computer, you can pull any changes back to your local repository so everything is synchronised.
 
 ---
 
@@ -483,10 +519,13 @@ template: question
 .pull-right[
 .my-blue[Commands] | .my-blue[Operations]
 ------------- | -------------
-`get commit -m <"message">` | Commit the staged snapshot, but instead of launching a text editor, use <"message"> as the commit message
-`get status` | List which files are staged, unstaged, and untracked
+`git commit -m <"message">` | Commit the staged snapshot, but instead of launching a text editor, use <"message"> as the commit message
+`git status` | List which files are staged, unstaged, and untracked
 `git log` | Display the entire commit history using the default format
 ]
+
+???
+This is an overview of the git commands along with their explanations that you should know as a beginner. I've already covered a part of them. That should be helpful for people who will have a look at the slides later.
 
 ---
 
@@ -497,9 +536,12 @@ template: question
 `git pull <remote>` | Fetch the specified remote’s copy of current branch and immediately merge it into the local copy
 `git push <remote> <branch>` | Upload local repository content to a remote repository
 
-**Pull requests** are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators. Like issues, pull requests each have their own discussion forum.
+**Pull requests** are proposed changes to a repository submitted by a user and accepted or rejected by a repository's collaborators. Pull requests each have their own discussion forum.
 
 **Issues** are suggested improvements, tasks or questions related to the repository. Issues can be created by anyone (for public repositories), and are moderated by repository collaborators. Each issue contains its own discussion thread.
+
+???
+I will cover later in practice what pull requests and issues are.
 
 ---
 
@@ -507,6 +549,12 @@ template: question
 
 `r icons::icon_style(icons::fontawesome("check-square"), scale = 3, fill = "white")`
 # 1) Create	a	new	RStudio	Project	and	push	it	to	GitHub
+
+???
+Now let's go for some practise. 
+
+You will learn about how to create an RStudio project and push it to GitHub
+That means you will learn how to setup a local repository first and then to link a remote GitHub repository to this local repository.
 
 ---
 
@@ -572,6 +620,9 @@ template: question
 `r icons::icon_style(icons::fontawesome("check-square"), scale = 3, fill = "white")`
 # 2) Clone	an	existing	GitHub	Repository	to	an	RStudio	Project
 
+???
+The second approach that you might follow is that you setup a remote GitHub repository first then you connect an RStudio project to this repository.
+
 ---
 
 ## 2) Clone	an	existing	GitHub	Repository	to	an	RStudio	Project
@@ -604,12 +655,20 @@ name: Cheatsheet
 ## My Submission of a new Cheatsheet to the "Cheatsheets" GitHub Repository maintained by RStudio: **Volunteer Basis**
 
 ![:scale 50%](img/git-github.png)
+???
+Now it's time to tell you about the git-github cheatsheet that I've created. I will tell you about the process that I've walked through to submit a new cheatsheet  to the cheatsheets GitHub repository with a pull request.
 
 ---
 name: Cheatsheet
 ## My Submission of a new Cheatsheet to the "Cheatsheets" GitHub Repository maintained by RStudio: **Volunteer Basis**
 
 ![:scale 100%](img/cheatsheet0.png)
+
+???
+This is the cheatsheets GitHub repository that contains the source files of the current, archived and translated versions of the cheatsheets. 
+
+We have some folders. pngs, keynotes, and powerpoints folders. for example the pngs folder contain image format of the available cheatsheets. 
+
 ---
 name: Cheatsheet
 ## My Submission of a new Cheatsheet to the "Cheatsheets" GitHub Repository maintained by RStudio: **Volunteer Basis**
@@ -625,6 +684,9 @@ name: Cheatsheet
 ![:scale 100%](img/cheatsheet4.png)
 ]
 
+???
+First, I forked the repo. Then I cloned the cheatsheets GitHub repository. Clicked on the green ‘Clone or Download’ button and made a copy of the link that poped up
+
 ---
 name: Cheatsheet
 ## My Submission of a new Cheatsheet to the "Cheatsheets" GitHub Repository maintained by RStudio: **Volunteer Basis**
@@ -636,6 +698,9 @@ name: Cheatsheet
 .pull-right[
 ![:scale 100%](img/cheatsheet6.png)
 ]
+
+???
+I put the pdf version of the cheatsheets in the pdf folders.
 
 ---
 name: Cheatsheet
