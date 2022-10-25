@@ -113,7 +113,7 @@ As ….. introduced me. I'm Mouna BELAID and I'm a Business Intelligence Consult
 ---
 layout: true
 
-<a class="footer-link" href="https://bit.ly/3ESdN6U">bit.ly/3ESdN6U; Mouna Belaid</a>
+<a class="footer-link" href="https://bit.ly/3f4moca">bit.ly/3f4moca; Mouna Belaid</a>
 
 <!-- this adds the link footer to all slides, depends on footer-link class in css-->
 ---
