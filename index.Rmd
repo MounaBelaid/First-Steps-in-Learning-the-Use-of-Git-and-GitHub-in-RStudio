@@ -263,7 +263,7 @@ template: question
 
 .pull-left-narrow[
 .center[<img src="img/logo-Git.png" width="100%"/>]]
-.pull-right-wide[### .black[Git is an open source software for version control, initi[a]lly developed in 2005 by Linus Torvalds, the creator of the Linux operating system kernel]]
+.pull-right-wide[### .black[Git is an open source software for version control, initially developed in 2005 by Linus Torvalds, the creator of the Linux operating system kernel]]
 
 --
 .pull-right-wide[### .black[Git is a distributed version control tool to track the changes in the source code of a project]]
