@@ -172,7 +172,7 @@ template: requirements
 ???
 
 You should have R and RStudio installed on your machine
-and you need also to have a GitHub account and Git installed before moving on.
+and you need also to have a GitHub account and Git installed.
 
 ---
 
@@ -227,10 +227,6 @@ A collaboration around open science, coding, teaching, and art.
 
 ]
 
-???
-
-Notes
-
 .panel[.panel-name[Popular Version Control Systems]
 .center[
 ![:scale 200%](img/VCS.png)
@@ -245,12 +241,13 @@ The code for a project, application or software component is typically organized
 Version control will help you to track every individual change in the code by each contributor and will help you to prevent concurrent work from conflicting.
 You know! As development environments have accelerated, version control systems are nowadays helping software teams work faster and smarter.
 
+[GO RIGHT PANE]
 Version control will help you streamline your work. Instead of spending our time inspecting and fretting over whether this version of an excel file or the other version“ is truly the final version, with a version control tool we can be confident in our completed analysis and move to the next step.
 Version Control will also enable you to make your work more reproducible. Using version control for your research project means that your work is totally transparent, and because all your actions are recorded, it enables others to reproduce your studies.
-On this context, I want to tell you about an illustrated series that has been recently created by Allison Horst and Julia Stewart Lowndes. The figure that you are looking at and which I find so insightful :D is one of the amazing illustrations that tell a story about why GitHub is so powerful for supporting, reusing, contributing, and failing safely. I will share with you later in the chat the link (https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) so that you get to know more later about this amazing work. There are really other amazing illustrations.
+In this context, I want to tell you about an illustrated series that has been created by Allison Horst and Julia Stewart Lowndes. The figure that you are looking at and which I find so insightful :D is one of the amazing illustrations that tell a story about why GitHub is so powerful for supporting, reusing, contributing, and failing safely. Rachael will kindly share with you in the chat in a bit the link of this series (https://www.openscapes.org/blog/2022/05/27/github-illustrated-series/) so that you get to know more later about this amazing work. There are really other amazing illustrations.
 
-
-As you can see, there are many choices, but here we are going to focus on just one, Git. So we have SVN, or Subversion…
+[GO RIGHT PANE]
+As you can see, there are many choices, but here we are going to focus on just one, Git. So we have CVS, or Subversion…
 
 ---
 template: question
@@ -266,7 +263,7 @@ template: question
 
 .pull-left-narrow[
 .center[<img src="img/logo-Git.png" width="100%"/>]]
-.pull-right-wide[### .black[Git is an open source software for version control, originally developed in 2005 by Linus Torvalds, the creator of the Linux operating system kernel]]
+.pull-right-wide[### .black[Git is an open source software for version control, initi[a]lly developed in 2005 by Linus Torvalds, the creator of the Linux operating system kernel]]
 
 --
 .pull-right-wide[### .black[Git is a distributed version control tool to track the changes in the source code of a project]]
@@ -276,8 +273,9 @@ template: question
 
 ???
 
-Git is distributed version control software. Git manages the evolution of a set of files – called a repository – in a sane, highly structured way.
-Being distributed means that every developer working with a Git repository has a copy of that entire repository - every commit, every branch, every file. It was originally developed in 2005 by Linus Torvalds, the creator of the Linux operating system kernel
+Git is a distributed version control software. What's its function? It manages the evolution of a set of files – called a repository – in a sane, highly structured way.
+
+Being distributed means that every developer working with a Git repository has a copy of that entire repository - every commit, every branch, every file. It was originally developed in 2005 (two thousands and five) by Linus Torvalds, the creator of the Linux operating system kernel
 
 ---
 template: question
@@ -316,7 +314,7 @@ A collaboration around open science, coding, teaching, and art.
 
 ???
 
-This is a second illustration from the GitHub illustration series that I've talked about to you earlier. 
+This is a second illustration from the GitHub illustration series that I've talked about to you in a moment ago. What's the definition of Collaboration by Jenny Bryan? 
 Collaboration…..
 
 ---
